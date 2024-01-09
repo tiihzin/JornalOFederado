@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-@font-face {
-    font-family: 'MuseoSlab';
-    src: url(MuseoSlab/MuseoSlab-500.ttf);
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'MuseoSlab';
-    src: url(MuseoSlab/MuseoSlab-700.ttf);
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'MuseoSlab';
-    src: url(MuseoSlab/MuseoSlab-900.ttf);
-    font-weight: 900;
-}
-
 :root{
     --verde: #194039;
     --amarelo: #F2D16D;
