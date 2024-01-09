@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Federado</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <script defer src="scripts/menu.js"></script>
+  </head>
+  <body>
+    <header class="header_desktop">
+      <a href="" class="logo_desktop"
+        ><img class="logo_img" src="images/logo.svg" alt=""
+      /></a>
+
+      <form action="post" class="search_box">
+        <input class="search" type="search" placeholder="Buscar..." />
+        <img class="search_btn_icon" src="images/search.svg" alt="" />
+      </form>
+
+      <nav class="menu_desktop">
+        <li><a href="">Ultimas Notícias</a></li>
+        <li><a href=""></a>Sobre Nós</li>
+        <li><a href=""></a>Projetos de Extensão</li>
+      </nav>
+    </header>
+
+    <header class="header_mobile">
+      <a href="" class="logo_mobile"
+        ><img class="logo_img" src="images/logo.svg" alt=""
+      /></a>
+
+      <div class="right-content">
+        <img  class="menu_icon" src="images/menu.svg" alt="" onclick="openMenu()"/>
+      </div>
+    </header>
+
+    <div  id="menu_mobile" class="menu_mobile menu_hiddem">
+      <div class="top_content">
+        <img class="close_icon" src="images/close_icon.svg" alt="" onclick="openMenu()"/>
+
+        <form action="post" class="search_box">
+          <input class="search" type="search" placeholder="Buscar..." />
+          <img class="search_btn_icon" src="images/search.svg" alt="" />
+        </form>
+
+        <nav class="nav_mobile">
+          <li><a href="">Ultimas Notícias</a></li>
+          <li><a href=""></a>Sobre Nós</li>
+          <li><a href=""></a>Projetos de Extensão</li>
+        </nav>
+      </div>
+
+      <div class="social_content">
+        <span class="social insta"
+          ><img src="images/instagram_icon.svg" alt=""
+        /></span>
+        <span class="social x"><img src="images/x_icon.svg" alt="" /></span>
+      </div>
+    </div>
+    </body>
+</html>
