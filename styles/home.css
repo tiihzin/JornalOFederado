@@ -77,7 +77,7 @@ body{
 }
 
 .hero_content{
-    background-image: url(/images/texture.svg);
+    background-image: url('/images/texture.svg');
     width: 50%;
     background-size: auto;
     height: 100%;
@@ -110,7 +110,7 @@ body{
 }
 
 .hero_img{
-    background-image: url(/images/ifpa_gray.jpg);
+    background-image: url('/images/ifpa_gray.jpg');
     background-size: cover;
     width: 50%;   
 }
@@ -127,7 +127,7 @@ body{
     }
 
     .hero_content{
-        background-image: url(/images/texture.svg);
+        background-image: url('/images/texture.svg');
         width: 100%;
         background-size: auto;
         height: 100%;
