@@ -229,7 +229,7 @@ body{
 
 .grid_noticias{
     display: grid;
-    margin: 0rem -4rem;
+    margin: 0rem;
     grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
 }
 
@@ -237,7 +237,7 @@ body{
 .card_noticia{
     display: flex;
     width: 100%;
-    padding: 2rem 4rem;
+    padding: 2rem 1rem;
     flex-direction: column;
     gap: 1rem;
 }
