@@ -132,7 +132,7 @@ body{
         width: 100%;
         background-size: auto;
         height: 100%;
-        padding: 4rem;
+        padding: 3rem;
         display: flex;
         gap: 2rem;
         flex-direction: column;
@@ -199,7 +199,7 @@ body{
 
 @media screen and (max-width: 800px){
     .ultima_noticia{
-        padding: 4rem;
+        padding: 3rem;
     }
 
     .top_noticia{
@@ -215,7 +215,7 @@ body{
 
 /*MAIS NOTICIAS*/
 .mais_noticias{
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
