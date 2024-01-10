@@ -122,6 +122,7 @@ body{
         display: flex;
         padding-top: 3rem;
         background-image: url(../images/ifpa_gray.jpg);
+        background-size: cover;
         gap: 0;
 
     }
