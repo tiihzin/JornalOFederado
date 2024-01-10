@@ -37,7 +37,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Poppins';
-    font-size: 1rem;
+    font-size: .95rem;
     transition: all 300ms ease-in-out;
 }
 
@@ -46,22 +46,165 @@ body{
     height: 100vh;
 }
 
-.hero_section_desktop{
-    width: 100%;
-    height: 90vh;
+/*BOTÃO*/
+
+.primary_btn{
+    padding: 1rem 2rem;
+    font-family: 'MuseoSlab';
+    color: var(--preto);
+    font-weight: 700;
     display: flex;
+    justify-content: center;
+    width: fit-content;
+    background-color: var(--amarelo);
+}
+
+.primary_btn:hover{
+    background-color: #ceb25d;
+}
+
+
+/*HERO SECTION*/
+
+.hero_section{
+    width: 100%;
+    height:95vh;
+    display: flex;
+    padding-top: 3rem;
     flex-direction: row;
     gap: 0;
+    background-color: var(--verde);
 }
 
 .hero_content{
-    background-color: var(--verde);
+    background-image: url(/images/texture.svg);
     width: 50%;
+    background-size: auto;
     height: 100%;
+    padding: 4rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
-.hero_img{
-    background-image: url(/images/ifpa_imagem.jpg);
-    width: 50%;
+.hero_content h1{
+    color: var(--branco);
+    font-family: 'MuseoSlab';
+    font-weight: 900;
+    font-size: 2.3rem;
 }
+
+.hero_content h1 b{
+    color: var(--amarelo);
+    font-family: 'MuseoSlab';
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+.hero_content h4{
+    font-size: .95rem;
+    font-weight: 400;
+    color: var(--branco)
+}
+
+.hero_img{
+    background-image: url(/images/ifpa_gray.jpg);
+    background-size: cover;
+    width: 50%;   
+}
+
+@media screen and (max-width: 800px){
+    .hero_section{
+        width: 100%;
+        height:95vh;
+        display: flex;
+        padding-top: 3rem;
+        background-image: url(/images/ifpa_gray.jpg);
+        gap: 0;
+
+    }
+
+    .hero_content{
+        background-image: url(/images/texture.svg);
+        width: 100%;
+        background-size: auto;
+        height: 100%;
+        padding: 4rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+
+    .hero_img{
+        display: none;
+    }
+}
+
+
+/*ULTIMA NOTICIA*/
+.ultima_noticia{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    align-items: center;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+.top_noticia{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+}
+
+.titulo_noticia{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo_noticia h2{
+    font-family: 'MuseoSlab';
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.titulo_noticia h6{
+    font-weight: 700;
+    font-size: .8rem;
+    color: var(--salmao);
+}
+
+.img_noticia{
+    width: 100%;
+    height: 15rem;
+    background-image: url(/images/ifpa_imagem.jpg);
+    background-size: cover;
+}
+
+.conteudo_noticia p{
+    color: var(--cinza);
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px){
+    .ultima_noticia{
+        padding: 4rem;
+    }
+
+    .top_noticia{
+        flex-direction: column;
+    }
+}
+
+
+/*MAIS NOTICIAS*/
+

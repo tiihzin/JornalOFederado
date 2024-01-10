@@ -23,10 +23,6 @@
     transition: all 300ms ease-in-out;
 }
 
-body{
-    width: 100%;
-}
-
 .header_mobile{
     display: none;
 }
@@ -61,6 +57,10 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+}
+
+.menu_desktop a{
+    color: var(--preto);
 }
 
 .search_box{
@@ -139,6 +139,13 @@ body{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+    }
+
+    .nav_mobile li {
+        text-align: right;
+    }
+
+    .nav_mobile a{
         color: var(--branco);
     }
 
