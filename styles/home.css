@@ -152,7 +152,8 @@ body{
     gap: 2rem;
     align-items: center;
     flex-direction: column;
-    padding: 8rem;
+    padding: 10rem;
+    padding-bottom: 4rem;
 }
 
 .top_noticia{
@@ -203,8 +204,22 @@ body{
     .top_noticia{
         flex-direction: column;
     }
+
+    .img_noticia{
+        width: 100%;
+        height: 20rem;
+    }
 }
 
 
 /*MAIS NOTICIAS*/
+.mais_noticias{
+    padding: 2rem 4rem;
+}
 
+.mais_noticias h3{
+    font-family: 'MuseoSlab';
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--verde);
+}
