@@ -48,49 +48,6 @@ body{
     background-color: var(--branco);
 }
 
-/*BOTÃO*/
-
-.primary_btn{
-    padding: 1rem 2rem;
-    font-family: 'MuseoSlab';
-    color: var(--preto);
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    width: fit-content;
-    background-color: var(--amarelo);
-}
-
-.primary_btn:hover{
-    background-color: #ceb25d;
-}
-
-.sub_btn_content{
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-}
-
-.sub_btn{
-    color: var(--verde);
-    display: flex;
-    font-family: 'MuseoSlab';
-    font-weight: 700;
-    gap: .5rem;
-    align-items: center;
-    width: fit-content;
-    padding: .5rem 1rem;
-    justify-content: flex-end;
-}
-
-.sub_btn img{
-    height: 1rem;
-}
-
-
-.sub_btn:hover{
-    background-color: var(--cinza-claro);
-}
 
 /*HERO SECTION*/
 

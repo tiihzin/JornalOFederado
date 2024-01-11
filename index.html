@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>O Federado</title>
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <script defer src="scripts/menu.js"></script>
   </head>
@@ -32,12 +32,21 @@
         ><img class="logo_img" src="images/logo.svg" alt=""
       /></a>
 
-      <img  class="menu_icon" src="images/menu.svg" alt="" onclick="openMenu()"/>
-      
+      <img
+        class="menu_icon"
+        src="images/menu.svg"
+        alt=""
+        onclick="openMenu()"
+      />
     </header>
     <div id="menu_mobile" class="menu_mobile menu_hiddem">
       <div class="top_content">
-        <img class="close_icon" src="images/close_icon.svg" alt="" onclick="openMenu()"/>
+        <img
+          class="close_icon"
+          src="images/close_icon.svg"
+          alt=""
+          onclick="openMenu()"
+        />
 
         <form action="post" class="search_box">
           <input class="search" type="search" placeholder="Buscar..." />
@@ -61,79 +70,106 @@
     <div id="bg_menu" class="bg_menu menu_hiddem" onclick="openMenu()"></div>
 
     <section class="hero_section">
-        <div class="hero_content">
-            <h1>Conheça o seu <b>Jornal Virtual</b> do IFPA Belém</h1>
-            <h4>Feito por Estudantes, para Estudantes</h4>
-            <a href="" class="primary_btn">Quero Conhecer</a>
-        </div>
-        <div class="hero_img"></div>
+      <div class="hero_content">
+        <h1>Conheça o seu <b>Jornal Virtual</b> do IFPA Belém</h1>
+        <h4>Feito por Estudantes, para Estudantes</h4>
+        <a href="" class="primary_btn">Quero Conhecer</a>
+      </div>
+      <div class="hero_img"></div>
     </section>
-    
+
     <section class="ultima_noticia">
-        <div class="top_noticia">
-            <div class="titulo_noticia">
-                <h6>CATEGORIA</h6>
-                <h2>Isso é um título de Notícia</h2>
-            </div>
-            <div class="img_noticia"></div>
+      <div class="top_noticia">
+        <div class="titulo_noticia">
+          <h6>CATEGORIA</h6>
+          <h2>Isso é um título de Notícia</h2>
         </div>
-        <div class="conteudo_noticia"> <p>Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam interdum. Commodo id fringilla congue habitant luctus ac diam interdum. Cras cursus lobortis quis cursus. Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam interdum. Commodo id fringilla congue habitant luctus ac diam interdum. Cras cursus lobortis quis cursus. Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam interdum. Commodo id fringilla congue habitant luctus ac diam interdum. Cras cursus lobortis quis cursus.</p>
-        </div>
-        <a href="noticia.html" class="primary_btn">Ler Mais</a>
+        <div class="img_noticia"></div>
+      </div>
+      <div class="conteudo_noticia">
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor
+          suspendisse vel velit viverra. Aliquet fames est ipsum phasellus
+          ornare sit donec nam interdum. Commodo id fringilla congue habitant
+          luctus ac diam interdum. Cras cursus lobortis quis cursus. Lorem ipsum
+          dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel
+          velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam
+          interdum. Commodo id fringilla congue habitant luctus ac diam
+          interdum. Cras cursus lobortis quis cursus. Lorem ipsum dolor sit amet
+          consectetur. Velit auctor lectus auctor suspendisse vel velit viverra.
+          Aliquet fames est ipsum phasellus ornare sit donec nam interdum.
+          Commodo id fringilla congue habitant luctus ac diam interdum. Cras
+          cursus lobortis quis cursus.
+        </p>
+      </div>
+      <a href="noticia.html" class="primary_btn">Ler Mais</a>
     </section>
 
     <section class="mais_noticias">
-        <h3>Mais Notícias</h3>
-        <div class="grid_noticias">
-            <a href="noticia.html" class="card_noticia">
-                <div class="card_img"></div>
-                <div class="title_card">
-                    <h6>CATEGORIA</h6>
-                    <h4>Isso é um Card de Notícia</h4>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-            </a>
-            <a href="noticia.html"  class="card_noticia">
-                <div class="card_img"></div>
-                <div class="title_card">
-                    <h6>CATEGORIA</h6>
-                    <h4>Isso é um Card de Notícia</h4>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-            </a>
-            <a href="noticia.html"  class="card_noticia">
-                <div class="card_img"></div>
-                <div class="title_card">
-                    <h6>CATEGORIA</h6>
-                    <h4>Isso é um Card de Notícia</h4>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-            </a>
-            <a href="noticia.html"  class="card_noticia">
-                <div class="card_img"></div>
-                <div class="title_card">
-                    <h6>CATEGORIA</h6>
-                    <h4>Isso é um Card de Notícia</h4>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-            </a>
-        </div>
-        <div class="sub_btn_content">
-          <a href="" class="sub_btn">Ver todas as Notícias <img src="images/seta_verde.svg" alt=""></a>
-        </div>
+      <h3>Mais Notícias</h3>
+      <div class="grid_noticias">
+        <a href="noticia.html" class="card_noticia">
+          <div class="card_img"></div>
+          <div class="title_card">
+            <h6>CATEGORIA</h6>
+            <h4>Isso é um Card de Notícia</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </a>
+        <a href="noticia.html" class="card_noticia">
+          <div class="card_img"></div>
+          <div class="title_card">
+            <h6>CATEGORIA</h6>
+            <h4>Isso é um Card de Notícia</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </a>
+        <a href="noticia.html" class="card_noticia">
+          <div class="card_img"></div>
+          <div class="title_card">
+            <h6>CATEGORIA</h6>
+            <h4>Isso é um Card de Notícia</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </a>
+        <a href="noticia.html" class="card_noticia">
+          <div class="card_img"></div>
+          <div class="title_card">
+            <h6>CATEGORIA</h6>
+            <h4>Isso é um Card de Notícia</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </a>
+      </div>
+      <div class="sub_btn_content">
+        <a href="" class="sub_btn"
+          >Ver todas as Notícias <img src="images/seta_verde.svg" alt=""
+        /></a>
+      </div>
     </section>
 
     <section class="sobre_nos">
       <div class="grid_text_sobre">
-        <div class="text_sobre">Lorem ipsum dolor sit amet consectetur. </div>
-        <div class="text_sobre">Lorem ipsum dolor sit amet consectetur. </div>
-        <div class="text_sobre">Lorem ipsum dolor sit amet consectetur. </div>
+        <div class="text_sobre">Lorem ipsum dolor sit amet consectetur.</div>
+        <div class="text_sobre">Lorem ipsum dolor sit amet consectetur.</div>
+        <div class="text_sobre">Lorem ipsum dolor sit amet consectetur.</div>
       </div>
       <div class="content_sobre">
         <h3>Sobre Nós</h3>
-        <p>Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam interdum. Commodo id fringilla congue habitant luctus ac diam interdum. Cras cursus lobortis quis cursus. Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam interdum. Commodo id fringilla congue habitant luctus ac diam interdum. Cras cursus lobortis quis cursus. </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor
+          suspendisse vel velit viverra. Aliquet fames est ipsum phasellus
+          ornare sit donec nam interdum. Commodo id fringilla congue habitant
+          luctus ac diam interdum. Cras cursus lobortis quis cursus. Lorem ipsum
+          dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel
+          velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam
+          interdum. Commodo id fringilla congue habitant luctus ac diam
+          interdum. Cras cursus lobortis quis cursus.
+        </p>
         <div class="sub_btn_content">
-          <a href="" class="sub_btn">Conhecer a Equipe<img src="images/seta_verde.svg" alt=""></a>
+          <a href="" class="sub_btn"
+            >Conhecer a Equipe<img src="images/seta_verde.svg" alt=""
+          /></a>
         </div>
       </div>
     </section>
@@ -142,36 +178,66 @@
       <div class="bg_sugestao">
         <div class="title_sugestao">
           <h3>Contribua com uma Notícia</h3>
-          <h4>Adicione uma Sugestão de Tema e ajude a manter a nossa comunidade sempre atualizada.</h4>
+          <h4>
+            Adicione uma Sugestão de Tema e ajude a manter a nossa comunidade
+            sempre atualizada.
+          </h4>
         </div>
         <form action="" class="form_sugestao">
           <div class="content_nome_email">
-            <label for="nome">Seu nome
-              <input type="text" name="nome" id="nome" class="input_sugestao" placeholder="Ex. Varla Caranda de Sousa">
+            <label for="nome"
+              >Seu nome
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                class="input_sugestao"
+                placeholder="Ex. Varla Caranda de Sousa"
+              />
             </label>
-    
-            <label for="email">Seu Email
-              <input type="email" name="email" id="email" class="input_sugestao" placeholder="seuemail@exemplo.com">
+
+            <label for="email"
+              >Seu Email
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="input_sugestao"
+                placeholder="seuemail@exemplo.com"
+              />
             </label>
           </div>
-  
-          <label for="sugestao">Sugestão de Notícia
-            <input type="text" name="sugestao" id="sugestao" class="input_sugestao" placeholder="Ex. Banheiros quebrados no Bloco M">
+
+          <label for="sugestao"
+            >Sugestão de Notícia
+            <input
+              type="text"
+              name="sugestao"
+              id="sugestao"
+              class="input_sugestao"
+              placeholder="Ex. Banheiros quebrados no Bloco M"
+            />
           </label>
-  
-          <label for="descricao">Descrição
-            <textarea name="descricao" id="descricao" class="text_sugestao" placeholder="Insira a descrição da notícia aqui"></textarea>
+
+          <label for="descricao"
+            >Descrição
+            <textarea
+              name="descricao"
+              id="descricao"
+              class="text_sugestao"
+              placeholder="Insira a descrição da notícia aqui"
+            ></textarea>
           </label>
-  
+
           <div class="content_submit">
-            <input type="submit" class="primary_btn" value="Enviar">
+            <input type="submit" class="primary_btn" value="Enviar" />
           </div>
         </form>
       </div>
     </section>
-    
+
     <footer>
-      <img src="images/logo.svg" alt="" class="logo_footer">
+      <img src="images/logo.svg" alt="" class="logo_footer" />
       <div class="content_footer">
         <div class="fale_conosco">
           <h3>Fale Conosco</h3>
@@ -188,6 +254,8 @@
         </div>
       </div>
     </footer>
-    <div class="copy"><p>Copyright © <b>Jornal O Federado. </b>Todos os Direitos Reservados</p></div>
-    </body>
+    <div class="copy">
+      <p>Copyright © <b>Jornal O Federado. </b>Todos os Direitos Reservados</p>
+    </div>
+  </body>
 </html>

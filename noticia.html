@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notícia | O Federado</title>
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/noticia.css" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <script defer src="scripts/menu.js"></script>
   </head>
@@ -32,12 +32,21 @@
         ><img class="logo_img" src="images/logo.svg" alt=""
       /></a>
 
-      <img  class="menu_icon" src="images/menu.svg" alt="" onclick="openMenu()"/>
-      
+      <img
+        class="menu_icon"
+        src="images/menu.svg"
+        alt=""
+        onclick="openMenu()"
+      />
     </header>
     <div id="menu_mobile" class="menu_mobile menu_hiddem">
       <div class="top_content">
-        <img class="close_icon" src="images/close_icon.svg" alt="" onclick="openMenu()"/>
+        <img
+          class="close_icon"
+          src="images/close_icon.svg"
+          alt=""
+          onclick="openMenu()"
+        />
 
         <form action="post" class="search_box">
           <input class="search" type="search" placeholder="Buscar..." />
@@ -60,11 +69,120 @@
     </div>
     <div id="bg_menu" class="bg_menu menu_hiddem" onclick="openMenu()"></div>
 
-    <section>
+    <section class="noticia">
+      <div class="top_noticia">
+        <div class="titulo_noticia">
+          <h6>CATEGORIA</h6>
+          <h2>Isso é um título de Notícia</h2>
+        </div>
+        <div class="img_noticia_titulo"></div>
+        <div class="info_noticia">
+          <div class="autor_info">
+            <img class="autor_img" src="images/davi.jpg"></img>
+            <div class="autor_info">
+              <span class="nome_autor">Por Davi Cruz</span>
+              <span class="atualizacao_info">Ultima Atualização: Há 2 dias.</span>
+            </div>
+          </div>
+          <div class="compartilhar">
+            
+          </div>
+        </div>
+      </div>
+      <div class="conteudo_noticia">
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor
+          suspendisse vel velit viverra. Aliquet fames est ipsum phasellus
+          ornare sit donec nam interdum. Commodo id fringilla congue habitant
+          luctus ac diam interdum. Cras cursus lobortis quis cursus. Lorem ipsum
+          dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel
+          velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam
+          interdum. Commodo id fringilla congue habitant luctus ac diam
+          interdum. Cras cursus lobortis quis cursus. Lorem ipsum dolor sit amet
+          consectetur. Velit auctor lectus auctor suspendisse vel velit viverra.
+          Aliquet fames est ipsum phasellus ornare sit donec nam interdum.
+          Commodo id fringilla congue habitant luctus ac diam interdum. Cras
+          cursus lobortis quis cursus.
+        </p>
+        
+        <span class="img_noticia_corpo"></span>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor
+          suspendisse vel velit viverra. Aliquet fames est ipsum phasellus
+          ornare sit donec nam interdum. Commodo id fringilla congue habitant
+          luctus ac diam interdum. Cras cursus lobortis quis cursus. Lorem ipsum
+          dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel
+          velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam
+          interdum. Commodo id fringilla congue habitant luctus ac diam
+          interdum. Cras cursus lobortis quis cursus. Lorem ipsum dolor sit amet
+          consectetur. Velit auctor lectus auctor suspendisse vel velit viverra.
+          Aliquet fames est ipsum phasellus ornare sit donec nam interdum.
+          Commodo id fringilla congue habitant luctus ac diam interdum. Cras
+          cursus lobortis quis cursus.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Velit auctor lectus auctor
+          suspendisse vel velit viverra. Aliquet fames est ipsum phasellus
+          ornare sit donec nam interdum. Commodo id fringilla congue habitant
+          luctus ac diam interdum. Cras cursus lobortis quis cursus. Lorem ipsum
+          dolor sit amet consectetur. Velit auctor lectus auctor suspendisse vel
+          velit viverra. Aliquet fames est ipsum phasellus ornare sit donec nam
+          interdum. Commodo id fringilla congue habitant luctus ac diam
+          interdum. Cras cursus lobortis quis cursus. Lorem ipsum dolor sit amet
+          consectetur. Velit auctor lectus auctor suspendisse vel velit viverra.
+          Aliquet fames est ipsum phasellus ornare sit donec nam interdum.
+          Commodo id fringilla congue habitant luctus ac diam interdum. Cras
+          cursus lobortis quis cursus.
+        </p>
+      </div>
     </section>
-    
+
+    <section class="outras_noticias">
+      <h3>Notícias Relacionadas</h3>
+      <div class="grid_noticias">
+        <a href="noticia.html" class="card_noticia">
+          <div class="card_img"></div>
+          <div class="title_card">
+            <h6>CATEGORIA</h6>
+            <h4>Isso é um Card de Notícia</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </a>
+        <a href="noticia.html" class="card_noticia">
+          <div class="card_img"></div>
+          <div class="title_card">
+            <h6>CATEGORIA</h6>
+            <h4>Isso é um Card de Notícia</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </a>
+        <a href="noticia.html" class="card_noticia">
+          <div class="card_img"></div>
+          <div class="title_card">
+            <h6>CATEGORIA</h6>
+            <h4>Isso é um Card de Notícia</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </a>
+        <a href="noticia.html" class="card_noticia">
+          <div class="card_img"></div>
+          <div class="title_card">
+            <h6>CATEGORIA</h6>
+            <h4>Isso é um Card de Notícia</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </a>
+      </div>
+      <div class="sub_btn_content">
+        <a href="" class="sub_btn"
+          >Ver todas as Notícias <img src="images/seta_verde.svg" alt=""
+        /></a>
+      </div>
+    </section>
+
     <footer>
-      <img href="index.html" src="images/logo.svg" alt="" class="logo_footer">
+      <img href="index.html" src="images/logo.svg" alt="" class="logo_footer" />
       <div class="content_footer">
         <div class="fale_conosco">
           <h3>Fale Conosco</h3>
@@ -81,6 +199,8 @@
         </div>
       </div>
     </footer>
-    <div class="copy"><p>Copyright © <b>Jornal O Federado. </b>Todos os Direitos Reservados</p></div>
-    </body>
+    <div class="copy">
+      <p>Copyright © <b>Jornal O Federado. </b>Todos os Direitos Reservados</p>
+    </div>
+  </body>
 </html>
